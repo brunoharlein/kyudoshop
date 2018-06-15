@@ -96,7 +96,113 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   
+   /*Start global Classes*/
+
+   main section
+   {
+     width: 100%;
+     background-color: pink;
+   }
+   main section div
+   {
+     width: 80%;
+     margin: 0 auto;
+   }
+   div iframe
+   {
+     width: 100%;
+   }
+
+   /* end global classes */
+
+   /* start commun rules */
+
+   img
+   {
+     width: 100%;
+   }
+   h1, h3, h2
+   {
+     text-align: center;
+     margin: 10px  0;
+     background-color: red;
+   }
+   ul
+   {
+     list-style-type: none;
+   }
+   a
+   {
+     text-decoration: none;
+   }
+
+   /* end commun rules */
+
+   /* Start Header style*/
+
+
+   nav ul
+   {
+     height: 3.5vh;
+     background-color: blue;
+     width: 95%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     padding-left: 0px;
+   }
+   nav ul li a
+   {
+     background-color: red;
+     color: black;
+     padding: .3em .4em;
+     border-radius: 12px;
+   }
+   nav
+   {
+     background-color: green;
+     width: 100%;
+
+   }
+
+
+   /*End header style*/
+
+   /* Start footer style*/
+
+   footer section h3
+   {
+     font-size: 1em;
+     background-color: grey;
+     margin-bottom: 0;
+   }
+   footer ul
+   {
+     background-color: pink;
+     width: 98s%;
+     padding-left: 0;
+     margin: auto;
+   }
+   footer
+   {
+     background-color: red;
+   }
+
+
+   /*End footer style*/
+
+   /* Start index main style*/
+
+   /*End index main style*/
+
+   /* Start contact main style*/
+
+   /*End contact main style*/
+
+   /* Start biographie main style*/
+
+   /*End biographie main style*/
+
 
 
 
