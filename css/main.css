@@ -97,50 +97,110 @@ textarea {
    Author's custom styles
    ========================================================================== */
    /*Start global Classes*/
-
+   /* main width */
    main section
    {
      width: 100%;
      background-color: pink;
    }
+   /* width div (main/section) */
    main section div
    {
      width: 80%;
      margin: 0 auto;
    }
+   /* width youtube link index */
    div iframe
    {
      width: 100%;
    }
+   .pprestation
+   {
+     text-align: center;
+   }
+   .imgindex
+   {
+     width: 50%;
+     height: 60%;
+   }
+   .mainproduits2
+   {
+     width: 90%;
+     background-color: red;
+     margin: 0 auto;
+   }
+   .border
+   {
+     border: 0.5px black solid;
+     text-align: center;
+   }
+
 
    /* end global classes */
 
    /* start commun rules */
-
+   /* height and width pictures */
    img
    {
      width: 100%;
+     height: 100%;
    }
+   /* txt center */
    h1, h3, h2
    {
      text-align: center;
      margin: 10px  0;
      background-color: red;
    }
+   /* list style type  */
    ul
    {
      list-style-type: none;
+     padding-left: 0px;
    }
+   /* link deco */
    a
    {
      text-decoration: none;
    }
+   table
+   {
+     border-collapse: collapse;
+     margin: 0 auto;
+     margin-bottom: 5px;
+   }
+   td, th
+   {
+     border: 1px solid black;
+   }
+   caption
+   {
+     margin: 3px 0;
+   }
+   main ul li
+   {
+     margin: 5px 5px;
+   }
+   .buybtn
+   {
+     background-color: pink;
+     color: black;
+     padding: .4em 1em;
+     border-radius: 8px;
+     box-shadow: 1px 1px 0px black;
+   }
+   .widthproduitdetail
+   {
+     width: 95%;
+     background-color: pink;
+     margin: auto;
+   }
+
 
    /* end commun rules */
 
    /* Start Header style*/
-
-
+   /* flexbox nav  */
    nav ul
    {
      height: 3.5vh;
@@ -149,8 +209,8 @@ textarea {
      margin: auto;
      display: flex;
      justify-content: space-between;
-     padding-left: 0px;
    }
+   /* button nav */
    nav ul li a
    {
      background-color: red;
@@ -158,24 +218,28 @@ textarea {
      padding: .3em .4em;
      border-radius: 12px;
    }
+   /* nav width */
    nav
    {
      background-color: green;
      width: 100%;
-
    }
 
 
    /*End header style*/
 
+
+
    /* Start footer style*/
 
+   /* footer font size  */
    footer section h3
    {
      font-size: 1em;
      background-color: grey;
-     margin-bottom: 0;
+     margin: 0 0;
    }
+   /* footer ul position and width */
    footer ul
    {
      background-color: pink;
@@ -191,7 +255,28 @@ textarea {
 
    /*End footer style*/
 
-   /* Start index main style*/
+
+   /* Start produits.html*/
+   /* pict size  */
+   .imgproduct
+   {
+     width: 40%;
+     height: 40%;
+     text-align: center;
+   }
+   /* main produits.html flexbox */
+   .flexproduct
+   {display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   /* width main produits.html */
+   .mainproduct
+   {
+     background-color: pink;
+     width: 90%;
+     margin: 0 auto;
+   }
 
    /*End index main style*/
 
