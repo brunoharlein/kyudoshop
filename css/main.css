@@ -118,6 +118,7 @@ textarea {
    {
      text-align: center;
    }
+   /* size img index page */
    .imgindex
    {
      width: 50%;
@@ -129,16 +130,31 @@ textarea {
      background-color: red;
      margin: 0 auto;
    }
-   .border
+   /* main page magasin  */
+   main article
    {
-     border: 0.5px black solid;
-     text-align: center;
+     width: 98%;
+     margin: 0 auto;
+     background-color: grey;
+     text-align: justify;
+     padding: 0 5px;
+   }
+   main article iframe
+   {
+    width: 100%;
    }
 
 
    /* end global classes */
 
    /* start commun rules */
+
+   /* border  */
+   .border
+   {
+     border: 0.5px black solid;
+     text-align: center;
+   }
    /* height and width pictures */
    img
    {
@@ -163,6 +179,7 @@ textarea {
    {
      text-decoration: none;
    }
+   /* table css */
    table
    {
      border-collapse: collapse;
@@ -181,6 +198,7 @@ textarea {
    {
      margin: 5px 5px;
    }
+   /* button buy product */
    .buybtn
    {
      background-color: pink;
@@ -189,11 +207,21 @@ textarea {
      border-radius: 8px;
      box-shadow: 1px 1px 0px black;
    }
+   /* width produits page  */
    .widthproduitdetail
    {
      width: 95%;
      background-color: pink;
      margin: auto;
+   }
+   /* flexbox contact page */
+   .flexcontact
+   {
+    display: flex;
+    background-color: pink;
+    width: 98%;
+    margin: 10px auto;
+    border: 1px black solid;
    }
 
 
