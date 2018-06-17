@@ -97,6 +97,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
    /*Start global Classes*/
+
    /* main width */
    main section
    {
@@ -124,6 +125,7 @@ textarea {
      width: 50%;
      height: 60%;
    }
+   /* width main page produits2 */
    .mainproduits2
    {
      width: 90%;
@@ -139,16 +141,20 @@ textarea {
      text-align: justify;
      padding: 0 5px;
    }
+   /* width youtube link */
    main article iframe
    {
-    width: 100%;
+     width: 100%;
    }
+   /* ===============end global classes */
 
 
-   /* end global classes */
-
-   /* start commun rules */
-
+   /* =====================================start commun rules */
+   /* delette  */
+   .ghost
+   {
+     display: none;
+   }
    /* border  */
    .border
    {
@@ -186,14 +192,17 @@ textarea {
      margin: 0 auto;
      margin-bottom: 5px;
    }
+   /* grid table page prestation */
    td, th
    {
      border: 1px solid black;
    }
+   /* title table */
    caption
    {
      margin: 3px 0;
    }
+   /* margin li  */
    main ul li
    {
      margin: 5px 5px;
@@ -217,26 +226,27 @@ textarea {
    /* flexbox contact page */
    .flexcontact
    {
-    display: flex;
-    background-color: pink;
-    width: 98%;
-    margin: 10px auto;
-    border: 1px black solid;
+     display: flex;
+     background-color: pink;
+     width: 98%;
+     margin: 10px auto;
+     border: 1px black solid;
    }
+   /*============================= end commun rules */
 
 
-   /* end commun rules */
+   /*============================ Start Header style*/
 
-   /* Start Header style*/
    /* flexbox nav  */
    nav ul
    {
      height: 3.5vh;
      background-color: blue;
      width: 95%;
-     margin: auto;
+     margin: 0 auto;
      display: flex;
      justify-content: space-between;
+     margin-left: 10px;
    }
    /* button nav */
    nav ul li a
@@ -252,13 +262,9 @@ textarea {
      background-color: green;
      width: 100%;
    }
+   /*===============================End header style*/
 
-
-   /*End header style*/
-
-
-
-   /* Start footer style*/
+   /*================================================== Start footer style*/
 
    /* footer font size  */
    footer section h3
@@ -279,9 +285,7 @@ textarea {
    {
      background-color: red;
    }
-
-
-   /*End footer style*/
+   /*=====================================================End footer style*/
 
 
    /* Start produits.html*/
@@ -294,9 +298,10 @@ textarea {
    }
    /* main produits.html flexbox */
    .flexproduct
-   {display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+   {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
    }
    /* width main produits.html */
    .mainproduct
@@ -305,8 +310,52 @@ textarea {
      width: 90%;
      margin: 0 auto;
    }
-
    /*End index main style*/
+
+   /* ============================start 640px resolution tablette  */
+   @media screen and (min-width: 640px)
+   {
+    .ghost
+    {
+      display: inline;
+    }
+    nav ul
+    {
+      display: flex;
+      width: 65%;
+      margin: 0 auto;
+    }
+    nav ul li
+    {
+      margin: 0 7px;
+      justify-content: center;
+    }
+    nav ul li a
+    {
+      box-shadow: 2px 2px 1px black;
+    }
+    .ghost2
+    {
+      display: none;
+    }
+    .mainproduct
+    {
+      width: 98%;
+    }
+
+    .imgproduct
+    {
+      width: 25%;
+      height: 25%;
+      
+    }
+
+
+    }
+
+
+
+
 
    /* Start contact main style*/
 
